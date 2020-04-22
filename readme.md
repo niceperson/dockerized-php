@@ -9,9 +9,8 @@ Nginx & PHP 7 web server.
 - pay attention to the docker-composer settings. the current one is meant to be used with [playground](https://github.com/niceperson/playground)
 - for standalone, please bind the app port with host port
 ``` yml
-
-	ports:
-	  - "8080:80" #host:app
+    ports:
+      - "8080:80" #host:app
 
 ```
 
